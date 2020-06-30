@@ -1,0 +1,79 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.half-width-div{
+    float: left;
+    width: 36%;
+    padding: 10% 0;
+
+}
+.half-width-div img{
+    width: 80%;
+}
+.header-first-div{
+    padding-left: 15%;
+    padding-top: 14%;
+}
+.name-highlights{
+    color: #FF2C7F;
+    font-weight: 900;
+    font-size: 40px;
+}
+.half-width-div p{
+    color: grey;
+    margin-bottom: 6%;
+    line-height: 1.7;
+}
+.link-design{
+    text-decoration: none;
+    padding: 2% 5%;
+    border-radius: 5px;
+    background-color: #FF2C7F;
+    color: white;
+}
+.header-section{
+    background-image: url("images/header-bg.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    min-height: 750px;
+}
+/* header section end */
+
+.biography-img-div {
+    padding-left: 15%;
+}
+.biography-div{
+    padding-top: 16%;
+} 
+.biography-section{
+    background-image: url("images/biography-bg.png");
+    background-repeat: no-repeat;
+    min-height: 750px;
+    background-size: 100% 100%;
+}
+
+/* biography section end */
+
+.work-div{
+    width: 25%;
+    float: left;
+    padding: 5% 2%;
+}
+.work-main-div{
+    padding-left: 13%;
+}
+.work-div img{
+    height: 250px;
+    width:  300px;
+}
+.work-section{
+    background-image: url("images/latest-work-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 500px;
+    padding: 5% 0;
+    text-align: center;
+}
+.work-section h1{
+    font-size: 30px;
+}
