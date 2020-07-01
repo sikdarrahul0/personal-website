@@ -1,37 +1,42 @@
 body{
+    margin: 0;
     font-family: 'Roboto', sans-serif;
 }
-.half-width-div{
-    float: left;
-    width: 36%;
-    padding: 10% 0;
-
-}
-.half-width-div img{
-    width: 80%;
-}
-.header-first-div{
-    padding-left: 15%;
-    padding-top: 14%;
-}
-.name-highlights{
-    color: #FF2C7F;
-    font-weight: 900;
-    font-size: 40px;
-}
-.half-width-div p{
+p{
     color: grey;
     margin-bottom: 6%;
     line-height: 1.7;
 }
+.half-width-div{
+    float: left;
+    width: 36%;
+
+}
+.profile-img-div{
+    width: 40%;
+}
+.half-width-div img{
+    width: 100%;
+}
+.header-first-div{
+    padding-left: 15%;
+    padding-top: 12%;
+}
+.name-highlights{
+    color:#e44685;
+    font-weight: 900;
+    font-size: 40px;
+}
+
 .link-design{
     text-decoration: none;
     padding: 2% 5%;
     border-radius: 5px;
-    background-color: #FF2C7F;
+    background-color:#e44685;
     color: white;
 }
 .header-section{
+    padding: 10% 0;
     background-image: url("images/header-bg.png");
     background-repeat: no-repeat;
     background-size: 100% 100%;
@@ -40,12 +45,15 @@ body{
 /* header section end */
 
 .biography-img-div {
-    padding-left: 15%;
+    padding-left: 13%;
+    padding-right: 2%;
+    width: 40%;
 }
 .biography-div{
-    padding-top: 16%;
+    padding-top: 8%;
 } 
 .biography-section{
+    padding: 5% 0;
     background-image: url("images/biography-bg.png");
     background-repeat: no-repeat;
     min-height: 750px;
@@ -77,3 +85,62 @@ body{
 .work-section h1{
     font-size: 30px;
 }
+/* work section end */
+
+.footer-part{
+    background-image: url("images/footer-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 780px;
+    padding: 2% 20%;
+    text-align: center;
+}
+.footer-part h1{
+    font-weight: 500;
+    padding-bottom: 3%;
+}
+.footer-part h3{
+    margin-top: 4%;
+    margin-bottom: 1%;
+    padding: 0 25%;
+    line-height: 1.7;
+}
+.weight-effect{
+    font-weight: 400;
+}
+.footer-part p{
+    margin: 0;
+}
+.mail-box{
+    margin: 7% 5%;
+    padding: 2% 6%;
+    background-color:#e44685;
+    color: white;
+    border-radius: 5px;
+}
+.mail-box h2{
+    padding-bottom: 2%;
+}
+.follow-div{
+    background-color: white;
+    margin: 7% 5%;
+    margin-bottom: 16%;
+    padding: 2% 6%;
+    padding-bottom: 4%;
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 5px;
+}
+.follow-div a{
+    text-decoration: none;
+    padding: 2% 3%;
+    margin: 0 7%;
+    margin-right: 9%;
+    color: black;
+    border-radius: 5px;
+}
+.follow-div a:hover{
+    background-color: #e44685;
+    color: white;
+}
+
+/* footer section end */
