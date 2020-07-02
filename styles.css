@@ -40,7 +40,7 @@ p{
     background-image: url("images/header-bg.png");
     background-repeat: no-repeat;
     background-size: 100% 100%;
-    min-height: 750px;
+    min-height: 700px;
 }
 /* header section end */
 
@@ -66,6 +66,9 @@ p{
     width: 25%;
     float: left;
     padding: 5% 2%;
+}
+.work-div:hover{
+    box-shadow: 10px 10px 40px gray;
 }
 .work-main-div{
     padding-left: 13%;
